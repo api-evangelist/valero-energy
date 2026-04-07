@@ -1,7 +1,12 @@
 aid: valero-energy
-url: https://raw.githubusercontent.com/api-evangelist/valero-energy/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/valero-energy/refs/heads/main/apis.yml
 modified: '2026-03-21'
 apis: []
 common:
   - type: Website
     url: https://www.valero-energy.com
+description: >-
+  Valero Energy is the world's largest independent petroleum refiner and a leading
+  ethanol producer, owning and operating refineries and ethanol plants in the United
+  States, Canada, and the United Kingdom.
