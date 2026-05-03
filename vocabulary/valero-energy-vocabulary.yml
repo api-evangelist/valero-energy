@@ -1,0 +1,86 @@
+vocabulary:
+  name: Valero Energy Vocabulary
+  description: Domain vocabulary for petroleum refining, renewable fuels, and energy production
+  version: '1.0'
+  created: '2026-05-03'
+  modified: '2026-05-03'
+  terms:
+    - term: Refinery
+      definition: An industrial facility that processes crude oil into refined petroleum products such as gasoline, diesel, and jet fuel
+      category: Facility
+      tags:
+        - Petroleum
+        - Manufacturing
+    - term: Barrels Per Day
+      definition: The standard unit of measurement for refining capacity and throughput, abbreviated BPD or bbl/d
+      category: Unit
+      tags:
+        - Measurement
+        - Petroleum
+    - term: Throughput
+      definition: The volume of crude oil processed through a refinery in a given time period, measured in barrels per day
+      category: Metric
+      tags:
+        - Operations
+        - Petroleum
+    - term: Refining Margin
+      definition: The difference between the price of refined petroleum products and the cost of crude oil, expressed per barrel
+      category: Metric
+      tags:
+        - Finance
+        - Operations
+    - term: Ethanol
+      definition: A biofuel produced from corn fermentation used as a gasoline blendstock or as a standalone fuel
+      category: Product
+      tags:
+        - Renewable
+        - Biofuel
+    - term: Renewable Diesel
+      definition: A low-carbon diesel fuel produced from vegetable oils, animal fats, or other biological feedstocks via hydroprocessing
+      category: Product
+      tags:
+        - Renewable
+        - Low Carbon
+    - term: Sustainable Aviation Fuel
+      definition: A renewable alternative to conventional jet fuel that can significantly reduce lifecycle carbon emissions from aviation
+      category: Product
+      tags:
+        - Renewable
+        - Aviation
+        - SAF
+    - term: Diamond Green Diesel
+      definition: Valero's joint venture for renewable diesel and sustainable aviation fuel production
+      category: Joint Venture
+      tags:
+        - Renewable
+        - Partnership
+    - term: Crack Spread
+      definition: The price difference between crude oil and refined products, a key indicator of refinery profitability
+      category: Financial Metric
+      tags:
+        - Finance
+        - Commodity
+    - term: Crude Oil
+      definition: Unrefined petroleum extracted from the ground that serves as the primary feedstock for petroleum refineries
+      category: Feedstock
+      tags:
+        - Petroleum
+        - Commodity
+    - term: TOP TIER
+      definition: An industry fuel quality standard; Valero-branded retail stations sell TOP TIER certified fuel with enhanced detergent additives
+      category: Standard
+      tags:
+        - Retail
+        - Quality
+    - term: Coking
+      definition: A refining process that converts heavy crude oil residuals into lighter, more valuable products and petroleum coke
+      category: Process
+      tags:
+        - Refining
+        - Operations
+    - term: Fortune 100
+      definition: A ranking of the 100 largest US companies by revenue published annually by Fortune magazine; Valero is consistently listed
+      category: Classification
+      tags:
+        - Company
+        - Finance

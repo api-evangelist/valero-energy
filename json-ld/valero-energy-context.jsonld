@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "@vocab": "https://api-evangelist.com/vocab/valero-energy#",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "energy": "https://schema.org/Energy",
+    "Refinery": {
+      "@id": "schema:LocalBusiness",
+      "@context": {
+        "name": "schema:name",
+        "location": "schema:location",
+        "capacity_bpd": "schema:additionalProperty",
+        "type": "@type",
+        "products": "schema:produces",
+        "operational": "schema:isAccessibleForFree"
+      }
+    },
+    "FinancialResult": {
+      "@id": "schema:FinancialProduct",
+      "@context": {
+        "revenue": "schema:totalPaymentDue",
+        "net_income": "schema:profit",
+        "earnings_per_share": "schema:price",
+        "dividend_per_share": "schema:annualPercentageRate",
+        "reported_date": "schema:datePublished"
+      }
+    },
+    "Organization": {
+      "@id": "schema:Organization",
+      "@context": {
+        "name": "schema:name",
+        "ticker": "schema:tickerSymbol",
+        "exchange": "schema:exchangeTicker"
+      }
+    }
+  }
+}

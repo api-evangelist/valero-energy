@@ -1,0 +1,13 @@
+{
+  "name": "Valero Refinery",
+  "description": "Structure of a Valero Energy refinery or production facility",
+  "fields": [
+    { "name": "id", "type": "string", "required": true, "description": "Unique identifier" },
+    { "name": "name", "type": "string", "required": true, "description": "Facility name" },
+    { "name": "location", "type": "object", "required": true, "description": "Physical location" },
+    { "name": "capacity_bpd", "type": "integer", "required": false, "description": "Capacity in barrels per day" },
+    { "name": "type", "type": "enum[petroleum,ethanol,renewable_diesel,sustainable_aviation_fuel]", "required": true, "description": "Facility type" },
+    { "name": "products", "type": "array", "required": false, "description": "Products produced" },
+    { "name": "operational", "type": "boolean", "required": false, "description": "Currently operational" }
+  ]
+}

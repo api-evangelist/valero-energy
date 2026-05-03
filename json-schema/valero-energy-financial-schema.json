@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api-evangelist.com/schemas/valero-energy/financial",
+  "title": "Valero Energy Financial Result",
+  "description": "Quarterly or annual financial results for Valero Energy Corporation",
+  "type": "object",
+  "properties": {
+    "period": {
+      "type": "object",
+      "properties": {
+        "quarter": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "year": { "type": "integer" },
+        "type": {
+          "type": "string",
+          "enum": ["quarterly", "annual"]
+        }
+      }
+    },
+    "revenue": {
+      "type": "number",
+      "description": "Total revenue in millions USD"
+    },
+    "net_income": {
+      "type": "number",
+      "description": "Net income in millions USD"
+    },
+    "earnings_per_share": {
+      "type": "number",
+      "description": "Diluted earnings per share"
+    },
+    "refining_margin": {
+      "type": "number",
+      "description": "Refining margin per barrel in USD"
+    },
+    "throughput_bpd": {
+      "type": "integer",
+      "description": "Total throughput in barrels per day"
+    },
+    "dividend_per_share": {
+      "type": "number",
+      "description": "Quarterly dividend per share in USD"
+    },
+    "reported_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date financial results were reported"
+    }
+  },
+  "required": ["period", "revenue", "reported_date"]
+}

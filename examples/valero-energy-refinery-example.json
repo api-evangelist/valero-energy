@@ -1,0 +1,21 @@
+{
+  "description": "Example of Valero Energy refinery data from the Port Arthur refinery",
+  "refinery": {
+    "id": "port-arthur-tx",
+    "name": "Port Arthur Refinery",
+    "location": {
+      "city": "Port Arthur",
+      "state": "TX",
+      "country": "US"
+    },
+    "capacity_bpd": 305000,
+    "type": "petroleum",
+    "products": [
+      "gasoline",
+      "diesel",
+      "jet_fuel",
+      "propane"
+    ],
+    "operational": true
+  }
+}

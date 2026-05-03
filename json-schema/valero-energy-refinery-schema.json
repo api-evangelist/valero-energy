@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api-evangelist.com/schemas/valero-energy/refinery",
+  "title": "Valero Refinery",
+  "description": "A petroleum refinery operated by Valero Energy Corporation",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique refinery identifier"
+    },
+    "name": {
+      "type": "string",
+      "description": "Refinery name"
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "country": {
+          "type": "string",
+          "enum": ["US", "CA", "UK"]
+        }
+      },
+      "description": "Physical location of the refinery"
+    },
+    "capacity_bpd": {
+      "type": "integer",
+      "description": "Refining capacity in barrels per day"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["petroleum", "ethanol", "renewable_diesel", "sustainable_aviation_fuel"],
+      "description": "Type of refinery/production facility"
+    },
+    "products": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "gasoline",
+          "diesel",
+          "jet_fuel",
+          "ethanol",
+          "renewable_diesel",
+          "sustainable_aviation_fuel",
+          "propane",
+          "asphalt"
+        ]
+      },
+      "description": "Products produced at this facility"
+    },
+    "operational": {
+      "type": "boolean",
+      "description": "Whether the refinery is currently operational"
+    }
+  },
+  "required": ["id", "name", "location", "type"]
+}
