@@ -62,6 +62,8 @@ apis:
       - type: SECFilings
         url: https://investorvalero.com/financials/sec-filings
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/valero-energy
   - type: Website
     url: https://www.valero.com/
   - type: InvestorRelations
