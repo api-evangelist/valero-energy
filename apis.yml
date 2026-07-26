@@ -7,7 +7,19 @@ description: >-
   12 ethanol plants, and renewable diesel production facilities across the US, Canada,
   and UK. The company trades on NYSE as VLO and is a Fortune 100 company.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: enterprise
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Enterprise
+  confidence: medium
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/valero-energy.png
 tags:
   - Energy
   - Petroleum
@@ -17,7 +29,7 @@ tags:
   - Ethanol
   - Renewable Diesel
 created: '2026-03-21'
-modified: '2026-05-03'
+modified: '2026-07-25'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/valero-energy/refs/heads/main/apis.yml
 specificationVersion: '0.19'
@@ -42,25 +54,6 @@ apis:
         url: https://investorvalero.com/
       - type: SECFilings
         url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001035002&type=10-K&dateb=&owner=include&count=10
-  - aid: valero-energy:investor-relations
-    name: Valero Investor Relations Portal
-    description: >-
-      Valero Energy investor relations portal providing access to financial data,
-      quarterly results, SEC filings, stock information, dividend history, and
-      corporate governance documents.
-    humanURL: https://investorvalero.com/
-    tags:
-      - Investor Relations
-      - Financial Data
-      - Stock Data
-      - Dividends
-    properties:
-      - type: InvestorRelations
-        url: https://investorvalero.com/
-      - type: StockQuote
-        url: https://investorvalero.com/stock-information/stock-quote
-      - type: SECFilings
-        url: https://investorvalero.com/financials/sec-filings
 common:
   - type: DomainSecurity
     url: security/valero-energy-domain-security.yml
