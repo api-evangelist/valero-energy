@@ -7,6 +7,17 @@ description: >-
   12 ethanol plants, and renewable diesel production facilities across the US, Canada,
   and UK. The company trades on NYSE as VLO and is a Fortune 100 company.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: enterprise
   onboarding: unknown
