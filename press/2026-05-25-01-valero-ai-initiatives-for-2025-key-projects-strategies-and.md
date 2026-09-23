@@ -1,7 +1,9 @@
 ---
 title: 'Valero AI Initiatives for 2025: Key Projects, Strategies and ...'
 url: https://enkiai.com/valero-ai-initiatives-for-2025-key-projects-strategies-and-partnerships/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Valero Energy" press release artificial intelligence'
 position: 1
 source: serpapi-google

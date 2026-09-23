@@ -1,7 +1,9 @@
 ---
 title: Valero Energy Corporation ($VLO)
 url: https://trendspider.com/learning-center/valero-energy-corporation-vlo/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Valero Energy" press release artificial intelligence'
 position: 3
 source: serpapi-google

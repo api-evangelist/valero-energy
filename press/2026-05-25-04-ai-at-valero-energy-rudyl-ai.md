@@ -1,7 +1,9 @@
 ---
 title: AI at Valero Energy | rudyl.ai
 url: https://www.rudyl.ai/ai-research/companies/valero-energy
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Valero Energy" press release artificial intelligence'
 position: 4
 source: serpapi-google
